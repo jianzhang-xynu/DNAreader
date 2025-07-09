@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DNAreader
 
 DNAreader is designed for accurate residue-level prediction of DNA-binding residues in both structure-annotated and disorder-annotated proteins.
