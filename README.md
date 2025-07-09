@@ -8,7 +8,7 @@ Access the DNAreader web server at:
 
 https://biomine.cs.vcu.edu/servers/DNAreader/
 
-## Web Server
+## Source Code
 
 The open-source implementation is available on GitHub:
 
