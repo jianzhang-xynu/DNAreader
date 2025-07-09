@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DNAreader
 
 DNAreader is designed for accurate residue-level prediction of DNA-binding residues in both structure-annotated and disorder-annotated proteins.
@@ -151,3 +152,6 @@ The code has been tested on both GPU and CPU-only computer.
 Upon the usage the users are requested to use the following citation:
 
 Jian Zhang, Sushmita Basu, Jingjing Qian, Lukasz Kurgan. DNAreader: Accurate prediction of DNA-binding residues in structured and disordered proteins using transformers and contrastive learning.
+=======
+# DNAreader
+>>>>>>> a6d57f6b09cf5cbd4f959101e71fd81fc606c94e
