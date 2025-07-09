@@ -22,9 +22,11 @@ The benchmark_datasets folder contains the datasets used for model training and 
 
 ## Facebook's ESM2 model
 
-DNAreader relies on ESM2 for residue embedding. Install it via:
+DNAreader relies on ESM2 for residue embedding.
 
-https://github.com/facebookresearch/esm. You can use the following command for the latest release:
+Install it via: https://github.com/facebookresearch/esm. 
+
+You can use the following command for the latest release:
 
 ```
 pip install fair-esm  # latest release, OR:
@@ -43,7 +45,7 @@ Note: This study uses esm2_t6_8M_UR50D (8M parameters) for residue embeddings.
 * ASAquick
 Fast neural network-based predictor of solvent accessibility
 
-http://mamiris.com/services.html
+Install it via: http://mamiris.com/services.html
 
 - Modify line 22 of 'serverScript/1_genRSA.plx'  
 
@@ -59,7 +61,7 @@ http://mamiris.com/services.html
 * HHblits
 Detection of Remote Homologous Proteins
 
-https://github.com/soedinglab/hh-suite
+Install it via: https://github.com/soedinglab/hh-suite
 
 The user needs to check the path of the HHblits in serverScript/2_genECO.plx.
 
@@ -77,7 +79,7 @@ The user needs to check the path of the HHblits in serverScript/2_genECO.plx.
 * IUPred3
 Prediction of Intrinsically Disorder
 
-https://iupred3.elte.hu/
+Install it via: https://iupred3.elte.hu/
 
 The user needs to check the path of the IUPred3 in serverScript/3_genDISO.plx.
 
@@ -96,7 +98,7 @@ The user needs to check the path of the IUPred3 in serverScript/3_genDISO.plx.
 * CLIP
 Prediction of Linear Interacting Peptides
 
-http://yanglab.qd.sdu.edu.cn/download/CLIP/
+Install it via: http://yanglab.qd.sdu.edu.cn/download/CLIP/
 
 The user needs to check the path of the CLIP in serverScript/6_runCLIP.plx.
 
@@ -129,9 +131,7 @@ Use command
 $ ./genALL.plx 'jobID'
 ```
 
-to run predictions,
-
-where 'jobID' is a folder containing FASTA-formatted protein sequences.
+to run predictions, where 'jobID' is a folder containing FASTA-formatted protein sequences.
 
 For instance,
 
@@ -151,6 +151,3 @@ The code has been tested on both GPU and CPU-only computer.
 Upon the usage the users are requested to use the following citation:
 
 Jian Zhang, Sushmita Basu, Jingjing Qian, Lukasz Kurgan. DNAreader: Accurate prediction of DNA-binding residues in structured and disordered proteins using transformers and contrastive learning.
-=======
-# DNAreader
->>>>>>> a6d57f6b09cf5cbd4f959101e71fd81fc606c94e
